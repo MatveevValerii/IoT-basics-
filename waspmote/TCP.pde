@@ -25,7 +25,7 @@ char password[] = "";
 
 // SERVER settings
 ///////////////////////////////////////
-char host[] = "iot.research.hamk.fi";
+char host[] = "_______";
 uint16_t remote_port = 80;
 ///////////////////////////////////////
 
@@ -37,8 +37,8 @@ uint8_t connId = Wasp4G::CONNECTION_1;
 // define data to send through TCP socket
 ///////////////////////////////////////
 char http_format[] =
-  "GET /Vaisala/vlk?frame=%s HTTP/1.1\r\n"\
-  "Host: iot.research.hamk.fi\r\n"\
+  "GET /_____/____/__"\
+  "Host: _____________\r\n"\
   "Content-Length: 0\r\n\r\n";
   
 ///////////////////////////////////////
