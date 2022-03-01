@@ -18,9 +18,9 @@ timestamp_t time;
 uint32_t loop_counter;
 
 // APNSETTINGS
-char apn[] = "internet";
-char login[] = "";
-char password[] = "";
+char apn[] = "APN";
+char login[] = "LOGIN";
+char password[] = "PASSWORD";
 
 
 // SERVER settings
